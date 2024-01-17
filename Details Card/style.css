@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Lobster&family=Salsa&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: rgb(20, 2, 14);
+    --border: 2px solid rgb(20, 2, 14);
+    --bgcolor: rgb(138, 138, 136);
+    --bgColorTwo: rgb(141, 156, 123);
+}
+body {
+    background-color: var(--bgColorTwo);
+    
+}
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    background-color: var(--bgcolor);
+    max-width: 600px;
+    border: var(--border);
+    border-radius: 10%;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "Lemon", sans-serif;
+    color: var(--text-color);
+    
+}
+
+.name {
+    text-align: center;
+}
+
+.conatiner {
+    margin: 10px;
+}
+
+.pic_conatiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mypic {
+    height: 20%;
+    width: 50%;
+    border: var(--border);
+    border-radius: 50%;
+    
+}
+
+.contact, .about, .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 10px;
+    padding: 1px 10px;
+}
+
+h2 {
+    font-family: "Lemon" ;
+    color: var(--text-color);
+}
+
+.story {
+    color: var(--text-color);
+    font-family: "Lobster", sans-serif;
+    letter-spacing: 2px;
+}
+
+
+
+div ul li a  .icon, .link_item{
+   
+    margin: 8px 10px;
+
+}
+
+
+div ul li {
+    list-style: none;
+}
+
+/*div ul li a  .icon {
+    height: 50%;
+    width: 10%;
+    margin-top: 10px;
+} */
+
+div ul li a {
+    width: 30%;
+    height: 50%;
+    text-decoration: none;
+}
+
+.fa-brands, .fa-solid, .link_item {
+    color: var(--text-color);
+}
+
+div ul li a  .icon:hover {
+    cursor: pointer;
+}
+
+.footer {
+    font-family: "Lemon", sans-serif;
+    font-size: 1em;
+}
+
+ul li a .icon:hover {
+    transform: rotate(360degs);
+}
